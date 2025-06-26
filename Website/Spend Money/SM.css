@@ -1,0 +1,50 @@
+body
+{
+ font-family: cursive;
+ color: white;
+ background-color: orange;
+ font-size: 40px;
+}
+.itemHolder
+{
+ display: grid;
+ grid-template-columns:  310px 310px 310px 310px;
+grid-gap: 50px;
+}
+.image
+{
+    width: 300px;
+    height: 300px;
+}
+.h{height: 50px;}
+.input{
+    width: 100px;
+    height: 40px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.Button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    transition: all,1s;
+}
+.Button:hover{
+height: 40px;
+    width: 100px;
+    background-color: white;
+    color: rgb(0, 110, 255);
+    border: none;
+  }
+.item{
+    height: 500PX;
+}
+.s
+{
+ height: 60px;
+width: 300px;
+font-size: 20px;
+font-family: cursive;
+}

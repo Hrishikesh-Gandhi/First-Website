@@ -1,0 +1,31 @@
+body
+{
+ font-family: cursive;
+ color: white;
+ background-color: rgb(19, 179, 219);
+ font-size: 40px;
+}
+.button{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+
+    color: white;
+    background-color: rgb(0, 110, 255);
+    border: none;
+    transition: all,1s;
+}
+
+  .Img{
+
+    width: 150px;
+      height: 150px;
+
+}
+.Img2{
+  
+    width: 70px;
+      height: 70px;
+}
