@@ -1,6 +1,6 @@
 let total;
 function genHTML(){
-
+addEventListener("keypress",function(event){if(event.key ==='Enter'){calc();}})
  
     let html=''
 for(let i=0;i<ItemList.length;i++)

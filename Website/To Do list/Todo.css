@@ -1,0 +1,43 @@
+     body{
+font-family: cursive;
+ color: white;
+ background-color: orange;
+font-size: 30px;
+           }
+.task{
+display: inline-block;
+font-size: 20px;
+height: 60px;
+width: 180px;
+margin-top: 10px;
+font-family: cursive;
+}
+.time{
+display: inline-block;
+font-size: 20px;
+height: 60px;
+width: 100px;
+margin-top: 10px;
+font-family: cursive;
+}
+.date{
+display: inline-block;
+height: 60px;
+width: 150px;
+font-size: 20px;
+margin-top: 10px;
+font-family: cursive;
+}
+.BUTTON{display: inline-block;
+height: 60px;
+width: 120px;
+border-radius: 25px;
+font-size: 20px;
+margin-top: 10px;
+font-family: cursive;
+}
+.div{
+   display: grid;
+   grid-template-columns: 204px 155px 110px 130px 130px ;
+ 
+}

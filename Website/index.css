@@ -1,0 +1,24 @@
+body
+{
+ font-family: cursive;
+ color: white;
+ background-color: orange;
+ font-size: 40px;
+}
+.Main
+{
+ display: grid;
+ grid-template-columns:   300px 300px 300px;
+ 
+}
+.sub
+{
+    width: 250px;
+    height:250px;
+    margin: 10px;
+    padding: 10px;
+    font-family: cursive;
+    color: white;
+    background-color: rgb(20, 44, 155);
+    font-size: 40px;
+}
