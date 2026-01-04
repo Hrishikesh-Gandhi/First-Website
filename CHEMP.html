@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Chemistry Project
+        </title>
+    </head>
+   <body>
+    <h1>Methane</h1>
+    
+    <p>Methane is a potent greenhouse gas, with 28 times the heat-trapping potential of CO₂ over a century. Since the industrial era, methane levels have risen over 150%, contributing about 23% to 20th-century climate change. It forms where oxygen is scarce: roughly 30% comes from wetlands, 20% from agriculture (livestock, rice, waste), and 30% from fossil fuel extraction. The rest comes from wildfires, permafrost, termites, and other minor sources.</p> 
+   <h1>Nitrogenous Oxides</h1>
+   <p>Nitrogenous oxides are a group of pollutants that contain nitrogen and oxygen. They are formed by the reaction of nitrogen and oxygen in the atmosphere, and are a major contributor to air pollution. Nitrogenous oxides are also a major contributor to acid rain, which can have harmful effects on plants, animals, and infrastructure.</p>
+   <div class="John">
+    <h3>Instantaneous warming by Methane Calculator</h3>
+<input type="number" class="task" placeholder="Enter the Emmision of methane in Million TONS ">
+<button onclick="calculateCarbonFootprint()" class="BUTTON">Calculate</button>
+<p>Approximate instantaneous warming by Methane: <span id="carbon-footprint"></span></p>
+<script>
+    function calculateCarbonFootprint() {
+        const methaneEmmission =  parseFloat(document.querySelector('input').value);
+        const carbonFootprint = (methaneEmmission)*0.00000014;
+        document.getElementById('carbon-footprint').innerHTML = carbonFootprint + '°C';
+    }
+    
+</script>
+
+
+
+
+
+   </div>
+   <style>
+   body
+{
+ font-family: cursive;
+ color: white;
+ background-color: orange;
+ font-size: 20px;
+ align-items: center;
+ margin: 20px;
+}
+
+.John
+{
+    margin-top:30px;
+}
+.BUTTON{display: inline-block;
+height: 60px;
+width: 120px;
+border-radius: 25px;
+font-size: 20px;
+margin-top: 10px;
+font-family: cursive;
+}
+.task{
+display: inline-block;
+font-size: 20px;
+height: 60px;
+width: 480px;
+margin-top: 10px;
+font-family: cursive;
+}
+</style>
+</body> 
