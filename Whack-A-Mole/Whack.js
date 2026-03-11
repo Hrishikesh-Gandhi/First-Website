@@ -83,9 +83,9 @@ function whack(number)
 function gameOver(id) {
     clearInterval(id);
     document.getElementById('score').innerHTML = 'Game Over! Final Score: ' + score;
-    document.getElementById('game-container').innerHTML = '<img src="Screenshot 2026-03-08 162139.png" alt="Game Over">';
-    document.getElementById('timer').innerHTML = '';
-    document.getElementById('PPS').innerHTML = 'PPS: ' + Math.round(score / (tim));
+    document.getElementById('game-container').innerHTML = '<h1>Game Over!</h1> <br><h2>PPS: ' + Math.round(score / (tim)) + '</h2>' ;
+    document.getElementById('timer').innerHTML = '<button class="button" onclick="window.location.reload()"">Play Again</button>';
+
 }
 function displayitmer(t) {
     document.getElementById('timer').innerHTML = 'Time: ' + Math.round(t/1000);
@@ -96,7 +96,6 @@ function startGame(Time) {
     <div id="game-container" class="container"></div>
     <div id="score">Score: 0</div>
     <div id="timer">Time: ${Time}</div>
-    <div id="PPS"></div>
     `
     document.getElementById('container').innerHTML = '';
     if(Time > 0) {
