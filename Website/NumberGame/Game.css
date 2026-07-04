@@ -1,0 +1,87 @@
+Body
+{
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ color: black;
+ display: grid;
+ grid-template-columns: 40% 30% 20%;
+}
+
+.screen
+{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
+.digHolder {
+    width: 70%;
+    aspect-ratio: 1;
+    border: 3px solid rgb(50, 80, 250);
+    color: aliceblue;
+    font-size: 4cqw;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 100, 10);
+}
+.selected
+{
+ background-color: rgb(50, 80, 250);  
+ border-color: rgb(210, 100, 10);
+}
+.numpad
+{
+    margin-top: 4cqw ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 80%;
+    color: aliceblue;
+}
+.numpad > button
+{
+    width: 50%;
+    margin: 0.5cqw;
+   border: solid 1px rgb(50, 80, 250);
+   aspect-ratio: 1;
+   font-size: 1.5cqw;
+}
+.numpad > button:hover {
+    cursor: pointer;
+    opacity: 0.67;
+}
+.numpad > button:active {
+    opacity: 0.4;
+}
+.guess {
+    color: black;
+}
+.guess > div {
+   color: #000;
+   font-size: 2cqw;
+}
+.win {
+    color: rgb(0, 120, 10);
+    font-size: 3cqw;
+    text-align: center;
+    margin-top: 2cqw;
+    margin-bottom: 2cqw;
+    font-weight: bold;
+}
+.sec 
+{
+ font-size: 2cqw;
+ color: brown;
+ font-weight: bold;
+}
+.but
+{
+    margin-top: 2cqw;
+    margin-bottom: 2cqw;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 1cqw;
+    border-radius: 1cqw;
+    cursor: pointer;
+}
+
