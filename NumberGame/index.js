@@ -6,7 +6,7 @@ function updateDigits() {
 }
 function updateLink() {
     const link = document.querySelector("a");
-    link.href = `game.html?digits=${document.getElementById("digits").innerHTML}`;
+    link.href = `Game.html?digits=${document.getElementById("digits").innerHTML}`;
 }
 
 
