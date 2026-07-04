@@ -22,6 +22,6 @@ addEventListener("keydown", (e) => {
         updateDigits();
     }
     if(e.key === "Enter"){
-        window.location.href = `game.html?digits=${document.getElementById("digits").innerHTML}`;
+        window.location.href = `Game.html?digits=${document.getElementById("digits").innerHTML}`;
     }
 });
