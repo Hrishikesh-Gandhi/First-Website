@@ -1,0 +1,75 @@
+.slider {
+    width: 40%;
+    background-color: green;
+    height: 2cqw;
+    border-radius: 1cqw;
+    margin: 0 auto;
+}
+
+.slide-container {
+    width: 100%;
+    margin-top: 2cqw;
+}
+
+div {
+    margin-top: 2cqw;
+    font-size: 3cqw;
+    font-weight: bold;
+
+}
+.start-button {
+    margin-top: 2cqw;
+    font-size: 3cqw;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 1cqw;
+    border-radius: 1cqw;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.start-button:hover {
+    background-color: #00ff00;
+}
+.start-button:active {
+    background-color: white;
+    color: green;
+}
+
+
+header {
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+   gap: 1cqw;
+   padding: 0.5cqw;
+   align-items: center;
+   justify-items: center;
+  color: white;
+  background-color: black;
+  margin-bottom: 2cqw;
+}
+header a {
+    width: 100%;
+}
+header button {
+    background-color: rgb(15,15,15);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 2cqw;
+    font-weight: bold;
+    border-radius: 0.5cqw;
+    width: 100%;
+    border: 1px solid rgb(50, 80, 250);
+    transition: all 0.25s;
+}
+header button:hover {
+ background-color: rgb(50, 50, 50);
+}
+header button:active {
+    background-color: rgb(70, 70, 70);
+}

@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+          NumberGuessr
+        </title>
+        <link rel="stylesheet" href="Game.css">
+    </head>
+    <body>
+                <header>
+            <a href="index.html">  <button>Home</button></a>          
+         <!--<a href="https://hrishikesh-gandhi.github.io/Guess_The_Number/">  <button>Previous version</button></a>-->
+          <a href="Rules.html">  <button>Rules and About</button></a>
+
+        </header>
+        <div class="container">
+        <div class="Main_Area">
+        <div class="Screen">
+
+        </div>
+        <div class="pad">
+            <div class="numpad">
+
+            
+            <button onclick="numberButton(1)">1</button>
+            <button onclick="numberButton(2)">2</button>
+            <button onclick="numberButton(3)">3</button>
+            <button onclick="numberButton(4)">4</button>
+            <button onclick="numberButton(5)">5</button>
+            <button onclick="numberButton(6)">6</button>
+            <button onclick="numberButton(7)">7</button>
+            <button onclick="numberButton(8)">8</button>
+            <button onclick="numberButton(9)">9</button>
+            </div>
+
+            <div class="numpad2">
+            <button onclick="numberButton(0)">0</button>
+            <button onclick="deleteDigit()">Del</button>
+            <button onclick="clearScreen()">Clear</button>
+            <button onclick="submitGuess()">Enter</button>
+            </div>
+        </div>
+    </div>
+    <div class="guess">
+        <div>All Guesses</div>
+        <table class="guess-table">
+            <tr>
+                <th>Guess No.</th>
+                <th>Guess</th>
+                <th>Correct Digit</th>
+                <th>Correct Position</th>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <script src="Game.js"></script>
+    <script>
+  // Disable right-click menu
+  //document.addEventListener('contextmenu', event => event.preventDefault());
+
+  /* // Disable F12, Ctrl+Shift+I, Ctrl+Shift+J, and Ctrl+U (View Source)
+  document.onkeydown = function(e) {
+    if (e.keyCode == 123) return false; // F12
+    if (e.ctrlKey && e.shiftKey && (e.keyCode == 'I'.charCodeAt(0) || e.keyCode == 'J'.charCodeAt(0))) return false;
+    if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) return false;
+  };*/
+</script>
+
+    </body>
+</html>
