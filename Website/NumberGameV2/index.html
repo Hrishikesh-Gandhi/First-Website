@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Number Guesser Menu</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header>
+            <a href="Game.html" class="start-link">  <button>Game</button></a>
+          <a href="Rules.html">  <button>Rules and About</button></a>
+          
+        <!-- <a href="https://hrishikesh-gandhi.github.io/Guess_The_Number/">  <button>Previous version</button></a> -->
+        </header>
+        <script src="index.js"></script>
+        <script>updateDigits();</script>
+        <div>Choose No. of Digits</div>
+        <div class="slide-container">
+            <input type="range" min="1" max="10" value="4" class="slider" oninput="updateDigits()">
+            <label for="myRange">Digits: <span id="digits">4</span></label>
+        </div>
+      <a class="start-link" href="Game.html?digits=4" >  <div class="start-button">
+   Start game
+        </div></a>
+    </body>
+</html>
