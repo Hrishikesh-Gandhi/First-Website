@@ -186,7 +186,7 @@ function MakeDigitsEqualToNumber(number){
 function AfterWin(){
     removeEventListener('keydown', Event);
     document.querySelector('.Main_Area').innerHTML = 
-    `<div class="win">You won!</div><div class="win sec"> You Guessed in ${guess.length} attempts</div><div>The Number Was ${MakeDigitsEqualToNumber(generatedNumber)}</div><div class="sec"><button class="but" onclick="window.location.reload()">Play Again?</button> <button class="but" onclick="window.location.href='index.html'">Home Page</button></div>`;
+    `<div class="win">You won!</div><div class="win sec"> You Guessed in ${guess.length} attempts</div><div class="win sec">The Number Was ${MakeDigitsEqualToNumber(generatedNumber)}</div><div class="sec"><button class="but" onclick="window.location.reload()">Play Again?</button> <button class="but" onclick="window.location.href='index.html'">Home Page</button></div>`;
 }//function to run after win 
 addEventListener('keydown',Event);
 function Event(e)
